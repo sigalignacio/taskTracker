@@ -15,7 +15,7 @@ public enum TaskStatus {
         this.titleCaseStatus = titleCaseStatus;
     }
 
-    private String getTitleCaseStatus() {
+    public String getTitleCaseStatus() {
         return titleCaseStatus;
     }
 
